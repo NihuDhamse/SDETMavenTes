@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="invalidUserName" value="Not-Nihal"/>
+    <parameter name="invalidPassword" value="WrongPassword"/>
+    <parameter name="validUserName" value="Nihal"/>
+    <parameter name="validPassword" value="NIha123"/>
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="2" name="F:/Classes/Softwear testing/Practices/Java/MavenAutomationTesting">
+        <classes>
+            <class name="ParameterizeMethod.ParameterizationExample"/>
+        </classes>
+    </test>
+</suite>
