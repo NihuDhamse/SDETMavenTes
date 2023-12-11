@@ -32,6 +32,12 @@ public class AnnotationMethodExample {
         int b=5;
         System.out.println(a/b);
     }
+    @Test
+    public void testCase3(){
+        int c=20;
+        int d=25;
+        System.out.printf(String.valueOf(c+d));
+    }
 
     @AfterMethod
     public void afterMethodExample(){

@@ -12,7 +12,7 @@ public class SoftAssertExample {
         System.setProperty("WebDriver.chrome.driver", "F:\\Classes\\Softwear testing\\Softwear tool\\Chrome Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver a = new ChromeDriver();
         a.get("https://www.netflix.com/browse");
-        a.manage().window().maximize();
+
 
         String webSiteTitle=a.getTitle();
 
